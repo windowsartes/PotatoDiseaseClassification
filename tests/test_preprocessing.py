@@ -2,7 +2,7 @@ import numpy as np
 import pytest
 import tensorflow as tf
 
-from src.preprocessing import train_val_test_split, IMAGE_SIZE, BATCH_SIZE
+from src.utils import train_val_test_split, IMAGE_SIZE, BATCH_SIZE
 
 
 test_cases = []
